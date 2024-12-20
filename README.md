@@ -25,3 +25,5 @@ What are some solutions to Docker image size related challenges?
 * Using official base images from routinely maintained distros.
   + Would still need to regularly audit these images for unneeded components and potential reduction of attack surface.
 * Evaluating system compatibility and related requirements prior to moving images from staging areas to production.
+
+TODO: Add example of compressed Docker image.
