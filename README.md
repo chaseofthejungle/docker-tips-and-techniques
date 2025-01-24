@@ -1,5 +1,6 @@
-# A Quick Guide to Reducing Docker Image Sizes
-
+# Docker Tips and Techniques Guide
+  
+## Reducing Docker Image Sizes
 What's the problem? Well, larger Docker image sizes can lead to...
 
 * Delays in container development and deployment (along with lengthier startup and image transfer periods).
@@ -26,4 +27,5 @@ What are some solutions to Docker image size related challenges?
   + Would still need to regularly audit these images for unneeded components and potential reduction of attack surface.
 * Evaluating system compatibility and related requirements prior to moving images from staging areas to production.
 
-TODO: Add example of compressed Docker image.
+TODO #1: Add example of compressed Docker image.  
+TODO #2: Add section on Docker Volumes.
