@@ -1,5 +1,10 @@
 # Docker Tips and Techniques Guide
   
+#### Table of Contents:
+
+1. Reducing Docker Image Sizes
+2. Docker Volumes
+  
 ## 1. Reducing Docker Image Sizes
 What's the problem? Well, larger Docker image sizes can lead to...
 
