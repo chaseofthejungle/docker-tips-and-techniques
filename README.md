@@ -2,10 +2,10 @@
   
 #### Table of Contents:
 
-1. Reducing Docker Image Sizes
-2. Docker Volumes
+1. [Reducing Docker Image Sizes](#reducing-images)
+2. [Docker Volumes](#docker-volumes)
   
-## 1. Reducing Docker Image Sizes
+## 1. <a name="reducing-images">Reducing Docker Image Sizes</a>
 What's the problem? Well, larger Docker image sizes can lead to...
 
 * Delays in container development and deployment (along with lengthier startup and image transfer periods).
@@ -34,7 +34,7 @@ What are some solutions to Docker image size related challenges?
   
 <hr />
 
-## 2. Docker Volumes
+## 2. <a name="docker-volumes">Docker Volumes</a>
 
 **Definition/Overview:** Docker volumes are files or directories located outside of a container's filesystem. They enable Docker containers to store and manage data, providing data persistence even after a container is removed, otherwise beyond its lifecycle, or stopped.
   
