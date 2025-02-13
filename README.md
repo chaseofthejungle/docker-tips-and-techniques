@@ -6,7 +6,7 @@
 2. [Docker Volumes](#docker-volumes)
   
 ## 1. <a name="reducing-images">Reducing Docker Image Sizes</a>
-What's the problem? Well, larger Docker image sizes can lead to...
+**What's the problem? Well, larger Docker image sizes can lead to...**
 
 * Delays in container development and deployment (along with lengthier startup and image transfer periods).
 * Overly complex systems (complicates compliance auditing and routine maintenance).
@@ -14,14 +14,14 @@ What's the problem? Well, larger Docker image sizes can lead to...
 * Introduction of vulnerabilities/security risks (unused components can increase attack surface for clients and hosts).
 * Expensive storage and bandwidth costs (and larger bills for Cloud service utilization).
 
-How does it happen?
+**How does it happen?**
   
 * Excess dependencies (code libraries and other technologies that are either unused or not necessary in the production environment).
 * Higher space base images (instead of using lightweight distros, such as Scratch and Alpine, and their system images).
 * Excess layers (ones that could be compressed or removed from images).
 * Persistence of data from previous builds (temp files that should be removed from images).
 
-What are some solutions to Docker image size related challenges?
+**What are some solutions to Docker image size related challenges?**
 
 * Separating dependencies by whether they are applicable to runtime or the building process (using a multistage approach to building). 
 * Mitigating excess build times by closely monitoring and modifying Dockerfile orders and turning on/applying caching.
@@ -38,7 +38,7 @@ What are some solutions to Docker image size related challenges?
 
 **Definition/Overview:** Docker volumes are files or directories located outside of a container's filesystem. They enable Docker containers to store and manage data, providing data persistence even after a container is removed, otherwise beyond its lifecycle, or stopped.
   
-Types of Docker volumes include:
+*Docker volume types include:*
 
 * **Anonymous Volumes**
   + Docker creates these automatically for storage of volatile (temporary) data.
