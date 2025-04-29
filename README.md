@@ -4,6 +4,7 @@
 
 1. [Reducing Docker Image Sizes](#reducing-images)
 2. [Docker Volumes](#docker-volumes)
+3. [Supplemental Resource](#supplemental)
   
 ## 1. <a name="reducing-images">Reducing Docker Image Sizes</a>
   
@@ -63,6 +64,12 @@ What are some solutions to Docker image size related challenges?
     - You can expect to find these in Docker's directory.
     - Performance should always be optimized for Docker usage.
     - Specific path setups are not necessarily to port volumes.
+  
+<hr />
+
+## 3. <a name="supplemental">Supplemental Resource</a>
+  
+* *[Official Docker Website](https://www.docker.com/)*
   
 <hr />
   
