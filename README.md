@@ -4,7 +4,7 @@
 
 1. [Reducing Docker Image Sizes](#reducing-images)
 2. [Docker Volumes](#docker-volumes)
-3. [Supplemental Resource](#supplemental)
+3. [Supplemental Resources](#supplemental)
   
 ## 1. <a name="reducing-images">Reducing Docker Image Sizes</a>
   
@@ -67,9 +67,10 @@ What are some solutions to Docker image size related challenges?
   
 <hr />
 
-## 3. <a name="supplemental">Supplemental Resource</a>
+## 3. <a name="supplemental">Supplemental Resources</a>
   
 * *[Official Docker Website](https://www.docker.com/)*
+* *[DockerHub Container Image Library](https://hub.docker.com/)*
   
 <hr />
   
